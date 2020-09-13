@@ -1,0 +1,1577 @@
+[
+	{
+		"name": "steam",
+		"category": "misc",
+		"labelCategory": "fluid",
+		"labelName": "steam",
+		"iconPath": "icons/fluid/misc/steam.png"
+	},
+	{
+		"name": "water",
+		"category": "misc",
+		"labelCategory": "fluid",
+		"labelName": "water",
+		"iconPath": "icons/fluid/misc/water.png"
+	},
+	{
+		"name": "crude-oil",
+		"category": "oil processing",
+		"labelCategory": "fluid",
+		"labelName": "crude-oil",
+		"iconPath": "icons/fluid/oil processing/crude-oil.png"
+	},
+	{
+		"name": "heavy-oil",
+		"category": "oil processing",
+		"labelCategory": "fluid",
+		"labelName": "heavy-oil",
+		"iconPath": "icons/fluid/oil processing/heavy-oil.png"
+	},
+	{
+		"name": "light-oil",
+		"category": "oil processing",
+		"labelCategory": "fluid",
+		"labelName": "light-oil",
+		"iconPath": "icons/fluid/oil processing/light-oil.png"
+	},
+	{
+		"name": "lubricant",
+		"category": "oil processing",
+		"labelCategory": "fluid",
+		"labelName": "lubricant",
+		"iconPath": "icons/fluid/oil processing/lubricant.png"
+	},
+	{
+		"name": "petroleum-gas",
+		"category": "oil processing",
+		"labelCategory": "fluid",
+		"labelName": "petroleum-gas",
+		"iconPath": "icons/fluid/oil processing/petroleum-gas.png"
+	},
+	{
+		"name": "sulfuric-acid",
+		"category": "oil processing",
+		"labelCategory": "fluid",
+		"labelName": "sulfuric-acid",
+		"iconPath": "icons/fluid/oil processing/sulfuric-acid.png"
+	},
+	{
+		"name": "blueprint-book",
+		"category": "blueprints",
+		"labelCategory": "item",
+		"labelName": "blueprint-book",
+		"iconPath": "icons/item/blueprints/blueprint-book.png"
+	},
+	{
+		"name": "blueprint",
+		"category": "blueprints",
+		"labelCategory": "item",
+		"labelName": "blueprint",
+		"iconPath": "icons/item/blueprints/blueprint.png"
+	},
+	{
+		"name": "deconstruction-planner",
+		"category": "blueprints",
+		"labelCategory": "item",
+		"labelName": "deconstruction-planner",
+		"iconPath": "icons/item/blueprints/deconstruction-planner.png"
+	},
+	{
+		"name": "upgrade-planner",
+		"category": "blueprints",
+		"labelCategory": "item",
+		"labelName": "upgrade-planner",
+		"iconPath": "icons/item/blueprints/upgrade-planner.png"
+	},
+	{
+		"name": "arithmetic-combinator",
+		"category": "circuits",
+		"labelCategory": "item",
+		"labelName": "arithmetic-combinator",
+		"iconPath": "icons/item/circuits/arithmetic-combinator.png"
+	},
+	{
+		"name": "constant-combinator",
+		"category": "circuits",
+		"labelCategory": "item",
+		"labelName": "constant-combinator",
+		"iconPath": "icons/item/circuits/constant-combinator.png"
+	},
+	{
+		"name": "decider-combinator",
+		"category": "circuits",
+		"labelCategory": "item",
+		"labelName": "decider-combinator",
+		"iconPath": "icons/item/circuits/decider-combinator.png"
+	},
+	{
+		"name": "green-wire",
+		"category": "circuits",
+		"labelCategory": "item",
+		"labelName": "green-wire",
+		"iconPath": "icons/item/circuits/green-wire.png"
+	},
+	{
+		"name": "power-switch",
+		"category": "circuits",
+		"labelCategory": "item",
+		"labelName": "power-switch",
+		"iconPath": "icons/item/circuits/power-switch.png"
+	},
+	{
+		"name": "programmable-speaker",
+		"category": "circuits",
+		"labelCategory": "item",
+		"labelName": "programmable-speaker",
+		"iconPath": "icons/item/circuits/programmable-speaker.png"
+	},
+	{
+		"name": "red-wire",
+		"category": "circuits",
+		"labelCategory": "item",
+		"labelName": "red-wire",
+		"iconPath": "icons/item/circuits/red-wire.png"
+	},
+	{
+		"name": "small-lamp",
+		"category": "circuits",
+		"labelCategory": "item",
+		"labelName": "small-lamp",
+		"iconPath": "icons/item/circuits/small-lamp.png"
+	},
+	{
+		"name": "battery-equipment",
+		"category": "equipment",
+		"labelCategory": "item",
+		"labelName": "battery-equipment",
+		"iconPath": "icons/item/equipment/battery-equipment.png"
+	},
+	{
+		"name": "battery-mk2-equipment",
+		"category": "equipment",
+		"labelCategory": "item",
+		"labelName": "battery-mk2-equipment",
+		"iconPath": "icons/item/equipment/battery-mk2-equipment.png"
+	},
+	{
+		"name": "belt-immunity-equipment",
+		"category": "equipment",
+		"labelCategory": "item",
+		"labelName": "belt-immunity-equipment",
+		"iconPath": "icons/item/equipment/belt-immunity-equipment.png"
+	},
+	{
+		"name": "discharge-defense-equipment-controller",
+		"category": "equipment",
+		"labelCategory": "item",
+		"labelName": "discharge-defense-equipment-controller",
+		"iconPath": "icons/item/equipment/discharge-defense-equipment-controller.png"
+	},
+	{
+		"name": "discharge-defense-equipment",
+		"category": "equipment",
+		"labelCategory": "item",
+		"labelName": "discharge-defense-equipment",
+		"iconPath": "icons/item/equipment/discharge-defense-equipment.png"
+	},
+	{
+		"name": "energy-shield-equipment",
+		"category": "equipment",
+		"labelCategory": "item",
+		"labelName": "energy-shield-equipment",
+		"iconPath": "icons/item/equipment/energy-shield-equipment.png"
+	},
+	{
+		"name": "energy-shield-mk2-equipment",
+		"category": "equipment",
+		"labelCategory": "item",
+		"labelName": "energy-shield-mk2-equipment",
+		"iconPath": "icons/item/equipment/energy-shield-mk2-equipment.png"
+	},
+	{
+		"name": "exoskeleton-equipment",
+		"category": "equipment",
+		"labelCategory": "item",
+		"labelName": "exoskeleton-equipment",
+		"iconPath": "icons/item/equipment/exoskeleton-equipment.png"
+	},
+	{
+		"name": "fusion-reactor-equipment",
+		"category": "equipment",
+		"labelCategory": "item",
+		"labelName": "fusion-reactor-equipment",
+		"iconPath": "icons/item/equipment/fusion-reactor-equipment.png"
+	},
+	{
+		"name": "heavy-armor",
+		"category": "equipment",
+		"labelCategory": "item",
+		"labelName": "heavy-armor",
+		"iconPath": "icons/item/equipment/heavy-armor.png"
+	},
+	{
+		"name": "light-armor",
+		"category": "equipment",
+		"labelCategory": "item",
+		"labelName": "light-armor",
+		"iconPath": "icons/item/equipment/light-armor.png"
+	},
+	{
+		"name": "modular-armor",
+		"category": "equipment",
+		"labelCategory": "item",
+		"labelName": "modular-armor",
+		"iconPath": "icons/item/equipment/modular-armor.png"
+	},
+	{
+		"name": "night-vision-equipment",
+		"category": "equipment",
+		"labelCategory": "item",
+		"labelName": "night-vision-equipment",
+		"iconPath": "icons/item/equipment/night-vision-equipment.png"
+	},
+	{
+		"name": "personal-laser-defense-equipment",
+		"category": "equipment",
+		"labelCategory": "item",
+		"labelName": "personal-laser-defense-equipment",
+		"iconPath": "icons/item/equipment/personal-laser-defense-equipment.png"
+	},
+	{
+		"name": "personal-roboport-equipment",
+		"category": "equipment",
+		"labelCategory": "item",
+		"labelName": "personal-roboport-equipment",
+		"iconPath": "icons/item/equipment/personal-roboport-equipment.png"
+	},
+	{
+		"name": "personal-roboport-mk2-equipment",
+		"category": "equipment",
+		"labelCategory": "item",
+		"labelName": "personal-roboport-mk2-equipment",
+		"iconPath": "icons/item/equipment/personal-roboport-mk2-equipment.png"
+	},
+	{
+		"name": "power-armor-mk2",
+		"category": "equipment",
+		"labelCategory": "item",
+		"labelName": "power-armor-mk2",
+		"iconPath": "icons/item/equipment/power-armor-mk2.png"
+	},
+	{
+		"name": "power-armor",
+		"category": "equipment",
+		"labelCategory": "item",
+		"labelName": "power-armor",
+		"iconPath": "icons/item/equipment/power-armor.png"
+	},
+	{
+		"name": "solar-panel-equipment",
+		"category": "equipment",
+		"labelCategory": "item",
+		"labelName": "solar-panel-equipment",
+		"iconPath": "icons/item/equipment/solar-panel-equipment.png"
+	},
+	{
+		"name": "steel-axe",
+		"category": "equipment",
+		"labelCategory": "item",
+		"labelName": "steel-axe",
+		"iconPath": "icons/item/equipment/steel-axe.png"
+	},
+	{
+		"name": "burner-inserter",
+		"category": "inserters",
+		"labelCategory": "item",
+		"labelName": "burner-inserter",
+		"iconPath": "icons/item/inserters/burner-inserter.png"
+	},
+	{
+		"name": "inserter",
+		"category": "inserters",
+		"labelCategory": "item",
+		"labelName": "inserter",
+		"iconPath": "icons/item/inserters/inserter.png"
+	},
+	{
+		"name": "fast-inserter",
+		"category": "inserters",
+		"labelCategory": "item",
+		"labelName": "fast-inserter",
+		"iconPath": "icons/item/inserters/fast-inserter.png"
+	},
+	{
+		"name": "long-handed-inserter",
+		"category": "inserters",
+		"labelCategory": "item",
+		"labelName": "long-handed-inserter",
+		"iconPath": "icons/item/inserters/long-handed-inserter.png"
+	},
+	{
+		"name": "filter-inserter",
+		"category": "inserters",
+		"labelCategory": "item",
+		"labelName": "filter-inserter",
+		"iconPath": "icons/item/inserters/filter-inserter.png"
+	},
+	{
+		"name": "stack-inserter",
+		"category": "inserters",
+		"labelCategory": "item",
+		"labelName": "stack-inserter",
+		"iconPath": "icons/item/inserters/stack-inserter.png"
+	},
+	{
+		"name": "stack-filter-inserter",
+		"category": "inserters",
+		"labelCategory": "item",
+		"labelName": "stack-filter-inserter",
+		"iconPath": "icons/item/inserters/stack-filter-inserter.png"
+	},
+	{
+		"name": "advanced-circuit",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "advanced-circuit",
+		"iconPath": "icons/item/items/advanced-circuit.png"
+	},
+	{
+		"name": "battery",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "battery",
+		"iconPath": "icons/item/items/battery.png"
+	},
+	{
+		"name": "concrete",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "concrete",
+		"iconPath": "icons/item/items/concrete.png"
+	},
+	{
+		"name": "copper-cable",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "copper-cable",
+		"iconPath": "icons/item/items/copper-cable.png"
+	},
+	{
+		"name": "copper-plate",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "copper-plate",
+		"iconPath": "icons/item/items/copper-plate.png"
+	},
+	{
+		"name": "electric-engine-unit",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "electric-engine-unit",
+		"iconPath": "icons/item/items/electric-engine-unit.png"
+	},
+	{
+		"name": "electronic-circuit",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "electronic-circuit",
+		"iconPath": "icons/item/items/electronic-circuit.png"
+	},
+	{
+		"name": "engine-unit",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "engine-unit",
+		"iconPath": "icons/item/items/engine-unit.png"
+	},
+	{
+		"name": "explosives",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "explosives",
+		"iconPath": "icons/item/items/explosives.png"
+	},
+	{
+		"name": "flying-robot-frame",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "flying-robot-frame",
+		"iconPath": "icons/item/items/flying-robot-frame.png"
+	},
+	{
+		"name": "hazard-concrete",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "hazard-concrete",
+		"iconPath": "icons/item/items/hazard-concrete.png"
+	},
+	{
+		"name": "iron-gear-wheel",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "iron-gear-wheel",
+		"iconPath": "icons/item/items/iron-gear-wheel.png"
+	},
+	{
+		"name": "iron-plate",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "iron-plate",
+		"iconPath": "icons/item/items/iron-plate.png"
+	},
+	{
+		"name": "iron-stick",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "iron-stick",
+		"iconPath": "icons/item/items/iron-stick.png"
+	},
+	{
+		"name": "low-density-structure",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "low-density-structure",
+		"iconPath": "icons/item/items/low-density-structure.png"
+	},
+	{
+		"name": "plastic-bar",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "plastic-bar",
+		"iconPath": "icons/item/items/plastic-bar.png"
+	},
+	{
+		"name": "processing-unit",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "processing-unit",
+		"iconPath": "icons/item/items/processing-unit.png"
+	},
+	{
+		"name": "refined-concrete",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "refined-concrete",
+		"iconPath": "icons/item/items/refined-concrete.png"
+	},
+	{
+		"name": "refined-hazard-concrete",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "refined-hazard-concrete",
+		"iconPath": "icons/item/items/refined-hazard-concrete.png"
+	},
+	{
+		"name": "steel-plate",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "steel-plate",
+		"iconPath": "icons/item/items/steel-plate.png"
+	},
+	{
+		"name": "stone-brick",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "stone-brick",
+		"iconPath": "icons/item/items/stone-brick.png"
+	},
+	{
+		"name": "sulfur",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "sulfur",
+		"iconPath": "icons/item/items/sulfur.png"
+	},
+	{
+		"name": "wood",
+		"category": "items",
+		"labelCategory": "item",
+		"labelName": "wood",
+		"iconPath": "icons/item/items/wood.png"
+	},
+	{
+		"name": "construction-robot",
+		"category": "logistics",
+		"labelCategory": "item",
+		"labelName": "construction-robot",
+		"iconPath": "icons/item/logistics/construction-robot.png"
+	},
+	{
+		"name": "logistic-robot",
+		"category": "logistics",
+		"labelCategory": "item",
+		"labelName": "logistic-robot",
+		"iconPath": "icons/item/logistics/logistic-robot.png"
+	},
+	{
+		"name": "logistic-chest-storage",
+		"category": "logistics",
+		"labelCategory": "item",
+		"labelName": "logistic-chest-storage",
+		"iconPath": "icons/item/logistics/logistic-chest-storage.png"
+	},
+	{
+		"name": "logistic-chest-requester",
+		"category": "logistics",
+		"labelCategory": "item",
+		"labelName": "logistic-chest-requester",
+		"iconPath": "icons/item/logistics/logistic-chest-requester.png"
+	},
+	{
+		"name": "logistic-chest-passive-provider",
+		"category": "logistics",
+		"labelCategory": "item",
+		"labelName": "logistic-chest-passive-provider",
+		"iconPath": "icons/item/logistics/logistic-chest-passive-provider.png"
+	},
+	{
+		"name": "logistic-chest-active-provider",
+		"category": "logistics",
+		"labelCategory": "item",
+		"labelName": "logistic-chest-active-provider",
+		"iconPath": "icons/item/logistics/logistic-chest-active-provider.png"
+	},
+	{
+		"name": "logistic-chest-buffer",
+		"category": "logistics",
+		"labelCategory": "item",
+		"labelName": "logistic-chest-buffer",
+		"iconPath": "icons/item/logistics/logistic-chest-buffer.png"
+	},
+	{
+		"name": "cliff-explosives",
+		"category": "misc",
+		"labelCategory": "item",
+		"labelName": "cliff-explosives",
+		"iconPath": "icons/item/misc/cliff-explosives.png"
+	},
+	{
+		"name": "coin",
+		"category": "misc",
+		"labelCategory": "item",
+		"labelName": "coin",
+		"iconPath": "icons/item/misc/coin.png"
+	},
+	{
+		"name": "computer",
+		"category": "misc",
+		"labelCategory": "item",
+		"labelName": "computer",
+		"iconPath": "icons/item/misc/computer.png"
+	},
+	{
+		"name": "express-loader",
+		"category": "misc",
+		"labelCategory": "item",
+		"labelName": "express-loader",
+		"iconPath": "icons/item/misc/express-loader.png"
+	},
+	{
+		"name": "fast-loader",
+		"category": "misc",
+		"labelCategory": "item",
+		"labelName": "fast-loader",
+		"iconPath": "icons/item/misc/fast-loader.png"
+	},
+	{
+		"name": "gate",
+		"category": "misc",
+		"labelCategory": "item",
+		"labelName": "gate",
+		"iconPath": "icons/item/misc/gate.png"
+	},
+	{
+		"name": "heat-interface",
+		"category": "misc",
+		"labelCategory": "item",
+		"labelName": "heat-interface",
+		"iconPath": "icons/item/misc/heat-interface.png"
+	},
+	{
+		"name": "landfill",
+		"category": "misc",
+		"labelCategory": "item",
+		"labelName": "landfill",
+		"iconPath": "icons/item/misc/landfill.png"
+	},
+	{
+		"name": "loader",
+		"category": "misc",
+		"labelCategory": "item",
+		"labelName": "loader",
+		"iconPath": "icons/item/misc/loader.png"
+	},
+	{
+		"name": "radar",
+		"category": "misc",
+		"labelCategory": "item",
+		"labelName": "radar",
+		"iconPath": "icons/item/misc/radar.png"
+	},
+	{
+		"name": "raw-fish",
+		"category": "misc",
+		"labelCategory": "item",
+		"labelName": "raw-fish",
+		"iconPath": "icons/item/misc/raw-fish.png"
+	},
+	{
+		"name": "repair-pack",
+		"category": "misc",
+		"labelCategory": "item",
+		"labelName": "repair-pack",
+		"iconPath": "icons/item/misc/repair-pack.png"
+	},
+	{
+		"name": "roboport",
+		"category": "misc",
+		"labelCategory": "item",
+		"labelName": "roboport",
+		"iconPath": "icons/item/misc/roboport.png"
+	},
+	{
+		"name": "rocket-control-unit",
+		"category": "misc",
+		"labelCategory": "item",
+		"labelName": "rocket-control-unit",
+		"iconPath": "icons/item/misc/rocket-control-unit.png"
+	},
+	{
+		"name": "rocket-part",
+		"category": "misc",
+		"labelCategory": "item",
+		"labelName": "rocket-part",
+		"iconPath": "icons/item/misc/rocket-part.png"
+	},
+	{
+		"name": "rocket-silo",
+		"category": "misc",
+		"labelCategory": "item",
+		"labelName": "rocket-silo",
+		"iconPath": "icons/item/misc/rocket-silo.png"
+	},
+	{
+		"name": "satellite",
+		"category": "misc",
+		"labelCategory": "item",
+		"labelName": "satellite",
+		"iconPath": "icons/item/misc/satellite.png"
+	},
+	{
+		"name": "wall",
+		"category": "misc",
+		"labelCategory": "item",
+		"labelName": "wall",
+		"iconPath": "icons/item/misc/wall.png"
+	},
+	{
+		"name": "effectivity-module",
+		"category": "modules",
+		"labelCategory": "item",
+		"labelName": "effectivity-module",
+		"iconPath": "icons/item/modules/effectivity-module.png"
+	},
+	{
+		"name": "effectivity-module-2",
+		"category": "modules",
+		"labelCategory": "item",
+		"labelName": "effectivity-module-2",
+		"iconPath": "icons/item/modules/effectivity-module-2.png"
+	},
+	{
+		"name": "effectivity-module-3",
+		"category": "modules",
+		"labelCategory": "item",
+		"labelName": "effectivity-module-3",
+		"iconPath": "icons/item/modules/effectivity-module-3.png"
+	},
+	{
+		"name": "productivity-module",
+		"category": "modules",
+		"labelCategory": "item",
+		"labelName": "productivity-module",
+		"iconPath": "icons/item/modules/productivity-module.png"
+	},
+	{
+		"name": "productivity-module-2",
+		"category": "modules",
+		"labelCategory": "item",
+		"labelName": "productivity-module-2",
+		"iconPath": "icons/item/modules/productivity-module-2.png"
+	},
+	{
+		"name": "productivity-module-3",
+		"category": "modules",
+		"labelCategory": "item",
+		"labelName": "productivity-module-3",
+		"iconPath": "icons/item/modules/productivity-module-3.png"
+	},
+	{
+		"name": "speed-module",
+		"category": "modules",
+		"labelCategory": "item",
+		"labelName": "speed-module",
+		"iconPath": "icons/item/modules/speed-module.png"
+	},
+	{
+		"name": "speed-module-2",
+		"category": "modules",
+		"labelCategory": "item",
+		"labelName": "speed-module-2",
+		"iconPath": "icons/item/modules/speed-module-2.png"
+	},
+	{
+		"name": "speed-module-3",
+		"category": "modules",
+		"labelCategory": "item",
+		"labelName": "speed-module-3",
+		"iconPath": "icons/item/modules/speed-module-3.png"
+	},
+	{
+		"name": "centrifuge",
+		"category": "nuclear power",
+		"labelCategory": "item",
+		"labelName": "centrifuge",
+		"iconPath": "icons/item/nuclear power/centrifuge.png"
+	},
+	{
+		"name": "heat-exchanger",
+		"category": "nuclear power",
+		"labelCategory": "item",
+		"labelName": "heat-exchanger",
+		"iconPath": "icons/item/nuclear power/heat-exchanger.png"
+	},
+	{
+		"name": "heat-pipe",
+		"category": "nuclear power",
+		"labelCategory": "item",
+		"labelName": "heat-pipe",
+		"iconPath": "icons/item/nuclear power/heat-pipe.png"
+	},
+	{
+		"name": "nuclear-fuel",
+		"category": "nuclear power",
+		"labelCategory": "item",
+		"labelName": "nuclear-fuel",
+		"iconPath": "icons/item/nuclear power/nuclear-fuel.png"
+	},
+	{
+		"name": "nuclear-reactor",
+		"category": "nuclear power",
+		"labelCategory": "item",
+		"labelName": "nuclear-reactor",
+		"iconPath": "icons/item/nuclear power/nuclear-reactor.png"
+	},
+	{
+		"name": "steam-turbine",
+		"category": "nuclear power",
+		"labelCategory": "item",
+		"labelName": "steam-turbine",
+		"iconPath": "icons/item/nuclear power/steam-turbine.png"
+	},
+	{
+		"name": "uranium-235",
+		"category": "nuclear power",
+		"labelCategory": "item",
+		"labelName": "uranium-235",
+		"iconPath": "icons/item/nuclear power/uranium-235.png"
+	},
+	{
+		"name": "uranium-238",
+		"category": "nuclear power",
+		"labelCategory": "item",
+		"labelName": "uranium-238",
+		"iconPath": "icons/item/nuclear power/uranium-238.png"
+	},
+	{
+		"name": "uranium-fuel-cell",
+		"category": "nuclear power",
+		"labelCategory": "item",
+		"labelName": "uranium-fuel-cell",
+		"iconPath": "icons/item/nuclear power/uranium-fuel-cell.png"
+	},
+	{
+		"name": "used-up-uranium-fuel-cell",
+		"category": "nuclear power",
+		"labelCategory": "item",
+		"labelName": "used-up-uranium-fuel-cell",
+		"iconPath": "icons/item/nuclear power/used-up-uranium-fuel-cell.png"
+	},
+	{
+		"name": "oil-refinery",
+		"category": "oil processing",
+		"labelCategory": "item",
+		"labelName": "oil-refinery",
+		"iconPath": "icons/item/oil processing/oil-refinery.png"
+	},
+	{
+		"name": "pumpjack",
+		"category": "oil processing",
+		"labelCategory": "item",
+		"labelName": "pumpjack",
+		"iconPath": "icons/item/oil processing/pumpjack.png"
+	},
+	{
+		"name": "solid-fuel",
+		"category": "oil processing",
+		"labelCategory": "item",
+		"labelName": "solid-fuel",
+		"iconPath": "icons/item/oil processing/solid-fuel.png"
+	},
+	{
+		"name": "coal",
+		"category": "ores",
+		"labelCategory": "item",
+		"labelName": "coal",
+		"iconPath": "icons/item/ores/coal.png"
+	},
+	{
+		"name": "copper-ore",
+		"category": "ores",
+		"labelCategory": "item",
+		"labelName": "copper-ore",
+		"iconPath": "icons/item/ores/copper-ore.png"
+	},
+	{
+		"name": "iron-ore",
+		"category": "ores",
+		"labelCategory": "item",
+		"labelName": "iron-ore",
+		"iconPath": "icons/item/ores/iron-ore.png"
+	},
+	{
+		"name": "stone",
+		"category": "ores",
+		"labelCategory": "item",
+		"labelName": "stone",
+		"iconPath": "icons/item/ores/stone.png"
+	},
+	{
+		"name": "uranium-ore",
+		"category": "ores",
+		"labelCategory": "item",
+		"labelName": "uranium-ore",
+		"iconPath": "icons/item/ores/uranium-ore.png"
+	},
+	{
+		"name": "accumulator",
+		"category": "power",
+		"labelCategory": "item",
+		"labelName": "accumulator",
+		"iconPath": "icons/item/power/accumulator.png"
+	},
+	{
+		"name": "big-electric-pole",
+		"category": "power",
+		"labelCategory": "item",
+		"labelName": "big-electric-pole",
+		"iconPath": "icons/item/power/big-electric-pole.png"
+	},
+	{
+		"name": "boiler",
+		"category": "power",
+		"labelCategory": "item",
+		"labelName": "boiler",
+		"iconPath": "icons/item/power/boiler.png"
+	},
+	{
+		"name": "medium-electric-pole",
+		"category": "power",
+		"labelCategory": "item",
+		"labelName": "medium-electric-pole",
+		"iconPath": "icons/item/power/medium-electric-pole.png"
+	},
+	{
+		"name": "rocket-fuel",
+		"category": "power",
+		"labelCategory": "item",
+		"labelName": "rocket-fuel",
+		"iconPath": "icons/item/power/rocket-fuel.png"
+	},
+	{
+		"name": "small-electric-pole",
+		"category": "power",
+		"labelCategory": "item",
+		"labelName": "small-electric-pole",
+		"iconPath": "icons/item/power/small-electric-pole.png"
+	},
+	{
+		"name": "solar-panel",
+		"category": "power",
+		"labelCategory": "item",
+		"labelName": "solar-panel",
+		"iconPath": "icons/item/power/solar-panel.png"
+	},
+	{
+		"name": "steam-engine",
+		"category": "power",
+		"labelCategory": "item",
+		"labelName": "steam-engine",
+		"iconPath": "icons/item/power/steam-engine.png"
+	},
+	{
+		"name": "substation",
+		"category": "power",
+		"labelCategory": "item",
+		"labelName": "substation",
+		"iconPath": "icons/item/power/substation.png"
+	},
+	{
+		"name": "assembling-machine-1",
+		"category": "production",
+		"labelCategory": "item",
+		"labelName": "assembling-machine-1",
+		"iconPath": "icons/item/production/assembling-machine-1.png"
+	},
+	{
+		"name": "assembling-machine-2",
+		"category": "production",
+		"labelCategory": "item",
+		"labelName": "assembling-machine-2",
+		"iconPath": "icons/item/production/assembling-machine-2.png"
+	},
+	{
+		"name": "assembling-machine-3",
+		"category": "production",
+		"labelCategory": "item",
+		"labelName": "assembling-machine-3",
+		"iconPath": "icons/item/production/assembling-machine-3.png"
+	},
+	{
+		"name": "beacon",
+		"category": "production",
+		"labelCategory": "item",
+		"labelName": "beacon",
+		"iconPath": "icons/item/production/beacon.png"
+	},
+	{
+		"name": "burner-mining-drill",
+		"category": "production",
+		"labelCategory": "item",
+		"labelName": "burner-mining-drill",
+		"iconPath": "icons/item/production/burner-mining-drill.png"
+	},
+	{
+		"name": "chemical-plant",
+		"category": "production",
+		"labelCategory": "item",
+		"labelName": "chemical-plant",
+		"iconPath": "icons/item/production/chemical-plant.png"
+	},
+	{
+		"name": "electric-furnace",
+		"category": "production",
+		"labelCategory": "item",
+		"labelName": "electric-furnace",
+		"iconPath": "icons/item/production/electric-furnace.png"
+	},
+	{
+		"name": "electric-mining-drill",
+		"category": "production",
+		"labelCategory": "item",
+		"labelName": "electric-mining-drill",
+		"iconPath": "icons/item/production/electric-mining-drill.png"
+	},
+	{
+		"name": "offshore-pump",
+		"category": "production",
+		"labelCategory": "item",
+		"labelName": "offshore-pump",
+		"iconPath": "icons/item/production/offshore-pump.png"
+	},
+	{
+		"name": "pump",
+		"category": "production",
+		"labelCategory": "item",
+		"labelName": "pump",
+		"iconPath": "icons/item/production/pump.png"
+	},
+	{
+		"name": "steel-furnace",
+		"category": "production",
+		"labelCategory": "item",
+		"labelName": "steel-furnace",
+		"iconPath": "icons/item/production/steel-furnace.png"
+	},
+	{
+		"name": "stone-furnace",
+		"category": "production",
+		"labelCategory": "item",
+		"labelName": "stone-furnace",
+		"iconPath": "icons/item/production/stone-furnace.png"
+	},
+	{
+		"name": "automation-science-pack",
+		"category": "science",
+		"labelCategory": "item",
+		"labelName": "automation-science-pack",
+		"iconPath": "icons/item/science/automation-science-pack.png"
+	},
+	{
+		"name": "chemical-science-pack",
+		"category": "science",
+		"labelCategory": "item",
+		"labelName": "chemical-science-pack",
+		"iconPath": "icons/item/science/chemical-science-pack.png"
+	},
+	{
+		"name": "lab",
+		"category": "science",
+		"labelCategory": "item",
+		"labelName": "lab",
+		"iconPath": "icons/item/science/lab.png"
+	},
+	{
+		"name": "logistic-science-pack",
+		"category": "science",
+		"labelCategory": "item",
+		"labelName": "logistic-science-pack",
+		"iconPath": "icons/item/science/logistic-science-pack.png"
+	},
+	{
+		"name": "military-science-pack",
+		"category": "science",
+		"labelCategory": "item",
+		"labelName": "military-science-pack",
+		"iconPath": "icons/item/science/military-science-pack.png"
+	},
+	{
+		"name": "production-science-pack",
+		"category": "science",
+		"labelCategory": "item",
+		"labelName": "production-science-pack",
+		"iconPath": "icons/item/science/production-science-pack.png"
+	},
+	{
+		"name": "space-science-pack",
+		"category": "science",
+		"labelCategory": "item",
+		"labelName": "space-science-pack",
+		"iconPath": "icons/item/science/space-science-pack.png"
+	},
+	{
+		"name": "utility-science-pack",
+		"category": "science",
+		"labelCategory": "item",
+		"labelName": "utility-science-pack",
+		"iconPath": "icons/item/science/utility-science-pack.png"
+	},
+	{
+		"name": "infinity-chest",
+		"category": "storage",
+		"labelCategory": "item",
+		"labelName": "infinity-chest",
+		"iconPath": "icons/item/storage/infinity-chest.png"
+	},
+	{
+		"name": "iron-chest",
+		"category": "storage",
+		"labelCategory": "item",
+		"labelName": "iron-chest",
+		"iconPath": "icons/item/storage/iron-chest.png"
+	},
+	{
+		"name": "steel-chest",
+		"category": "storage",
+		"labelCategory": "item",
+		"labelName": "steel-chest",
+		"iconPath": "icons/item/storage/steel-chest.png"
+	},
+	{
+		"name": "storage-tank",
+		"category": "storage",
+		"labelCategory": "item",
+		"labelName": "storage-tank",
+		"iconPath": "icons/item/storage/storage-tank.png"
+	},
+	{
+		"name": "wooden-chest",
+		"category": "storage",
+		"labelCategory": "item",
+		"labelName": "wooden-chest",
+		"iconPath": "icons/item/storage/wooden-chest.png"
+	},
+	{
+		"name": "car",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "car",
+		"iconPath": "icons/item/transport/car.png"
+	},
+	{
+		"name": "cargo-wagon",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "cargo-wagon",
+		"iconPath": "icons/item/transport/cargo-wagon.png"
+	},
+	{
+		"name": "express-splitter",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "express-splitter",
+		"iconPath": "icons/item/transport/express-splitter.png"
+	},
+	{
+		"name": "express-transport-belt",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "express-transport-belt",
+		"iconPath": "icons/item/transport/express-transport-belt.png"
+	},
+	{
+		"name": "express-underground-belt",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "express-underground-belt",
+		"iconPath": "icons/item/transport/express-underground-belt.png"
+	},
+	{
+		"name": "fast-splitter",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "fast-splitter",
+		"iconPath": "icons/item/transport/fast-splitter.png"
+	},
+	{
+		"name": "fast-transport-belt",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "fast-transport-belt",
+		"iconPath": "icons/item/transport/fast-transport-belt.png"
+	},
+	{
+		"name": "fast-underground-belt",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "fast-underground-belt",
+		"iconPath": "icons/item/transport/fast-underground-belt.png"
+	},
+	{
+		"name": "fluid-wagon",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "fluid-wagon",
+		"iconPath": "icons/item/transport/fluid-wagon.png"
+	},
+	{
+		"name": "locomotive",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "locomotive",
+		"iconPath": "icons/item/transport/locomotive.png"
+	},
+	{
+		"name": "pipe-to-ground",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "pipe-to-ground",
+		"iconPath": "icons/item/transport/pipe-to-ground.png"
+	},
+	{
+		"name": "pipe",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "pipe",
+		"iconPath": "icons/item/transport/pipe.png"
+	},
+	{
+		"name": "rail-chain-signal",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "rail-chain-signal",
+		"iconPath": "icons/item/transport/rail-chain-signal.png"
+	},
+	{
+		"name": "rail-signal",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "rail-signal",
+		"iconPath": "icons/item/transport/rail-signal.png"
+	},
+	{
+		"name": "rail",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "rail",
+		"iconPath": "icons/item/transport/rail.png"
+	},
+	{
+		"name": "spidertron-remote",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "spidertron-remote",
+		"iconPath": "icons/item/transport/spidertron-remote.png"
+	},
+	{
+		"name": "spidertron",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "spidertron",
+		"iconPath": "icons/item/transport/spidertron.png"
+	},
+	{
+		"name": "splitter",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "splitter",
+		"iconPath": "icons/item/transport/splitter.png"
+	},
+	{
+		"name": "tank",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "tank",
+		"iconPath": "icons/item/transport/tank.png"
+	},
+	{
+		"name": "train-stop",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "train-stop",
+		"iconPath": "icons/item/transport/train-stop.png"
+	},
+	{
+		"name": "transport-belt",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "transport-belt",
+		"iconPath": "icons/item/transport/transport-belt.png"
+	},
+	{
+		"name": "underground-belt",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "underground-belt",
+		"iconPath": "icons/item/transport/underground-belt.png"
+	},
+	{
+		"name": "artillery-shell",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "artillery-shell",
+		"iconPath": "icons/item/weapons/artillery-shell.png"
+	},
+	{
+		"name": "artillery-targeting-remote",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "artillery-targeting-remote",
+		"iconPath": "icons/item/weapons/artillery-targeting-remote.png"
+	},
+	{
+		"name": "artillery-turret",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "artillery-turret",
+		"iconPath": "icons/item/weapons/artillery-turret.png"
+	},
+	{
+		"name": "artillery-wagon",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "artillery-wagon",
+		"iconPath": "icons/item/weapons/artillery-wagon.png"
+	},
+	{
+		"name": "atomic-bomb",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "atomic-bomb",
+		"iconPath": "icons/item/weapons/atomic-bomb.png"
+	},
+	{
+		"name": "cannon-shell",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "cannon-shell",
+		"iconPath": "icons/item/weapons/cannon-shell.png"
+	},
+	{
+		"name": "cluster-grenade",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "cluster-grenade",
+		"iconPath": "icons/item/weapons/cluster-grenade.png"
+	},
+	{
+		"name": "combat-shotgun",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "combat-shotgun",
+		"iconPath": "icons/item/weapons/combat-shotgun.png"
+	},
+	{
+		"name": "defender-capsule",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "defender-capsule",
+		"iconPath": "icons/item/weapons/defender-capsule.png"
+	},
+	{
+		"name": "destroyer-capsule",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "destroyer-capsule",
+		"iconPath": "icons/item/weapons/destroyer-capsule.png"
+	},
+	{
+		"name": "distractor-capsule",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "distractor-capsule",
+		"iconPath": "icons/item/weapons/distractor-capsule.png"
+	},
+	{
+		"name": "explosive-cannon-shell",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "explosive-cannon-shell",
+		"iconPath": "icons/item/weapons/explosive-cannon-shell.png"
+	},
+	{
+		"name": "explosive-rocket",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "explosive-rocket",
+		"iconPath": "icons/item/weapons/explosive-rocket.png"
+	},
+	{
+		"name": "explosive-uranium-cannon-shell",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "explosive-uranium-cannon-shell",
+		"iconPath": "icons/item/weapons/explosive-uranium-cannon-shell.png"
+	},
+	{
+		"name": "firearm-magazine",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "firearm-magazine",
+		"iconPath": "icons/item/weapons/firearm-magazine.png"
+	},
+	{
+		"name": "flamethrower-ammo",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "flamethrower-ammo",
+		"iconPath": "icons/item/weapons/flamethrower-ammo.png"
+	},
+	{
+		"name": "flamethrower-turret",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "flamethrower-turret",
+		"iconPath": "icons/item/weapons/flamethrower-turret.png"
+	},
+	{
+		"name": "flamethrower",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "flamethrower",
+		"iconPath": "icons/item/weapons/flamethrower.png"
+	},
+	{
+		"name": "grenade",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "grenade",
+		"iconPath": "icons/item/weapons/grenade.png"
+	},
+	{
+		"name": "gun-turret",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "gun-turret",
+		"iconPath": "icons/item/weapons/gun-turret.png"
+	},
+	{
+		"name": "land-mine",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "land-mine",
+		"iconPath": "icons/item/weapons/land-mine.png"
+	},
+	{
+		"name": "laser-turret",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "laser-turret",
+		"iconPath": "icons/item/weapons/laser-turret.png"
+	},
+	{
+		"name": "piercing-rounds-magazine",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "piercing-rounds-magazine",
+		"iconPath": "icons/item/weapons/piercing-rounds-magazine.png"
+	},
+	{
+		"name": "piercing-shotgun-shell",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "piercing-shotgun-shell",
+		"iconPath": "icons/item/weapons/piercing-shotgun-shell.png"
+	},
+	{
+		"name": "pistol",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "pistol",
+		"iconPath": "icons/item/weapons/pistol.png"
+	},
+	{
+		"name": "poison-capsule",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "poison-capsule",
+		"iconPath": "icons/item/weapons/poison-capsule.png"
+	},
+	{
+		"name": "railgun",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "railgun",
+		"iconPath": "icons/item/weapons/railgun.png"
+	},
+	{
+		"name": "rocket-launcher",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "rocket-launcher",
+		"iconPath": "icons/item/weapons/rocket-launcher.png"
+	},
+	{
+		"name": "rocket",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "rocket",
+		"iconPath": "icons/item/weapons/rocket.png"
+	},
+	{
+		"name": "shotgun-shell",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "shotgun-shell",
+		"iconPath": "icons/item/weapons/shotgun-shell.png"
+	},
+	{
+		"name": "shotgun",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "shotgun",
+		"iconPath": "icons/item/weapons/shotgun.png"
+	},
+	{
+		"name": "slowdown-capsule",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "slowdown-capsule",
+		"iconPath": "icons/item/weapons/slowdown-capsule.png"
+	},
+	{
+		"name": "submachine-gun",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "submachine-gun",
+		"iconPath": "icons/item/weapons/submachine-gun.png"
+	},
+	{
+		"name": "tank-cannon",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "tank-cannon",
+		"iconPath": "icons/item/weapons/tank-cannon.png"
+	},
+	{
+		"name": "uranium-cannon-shell",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "uranium-cannon-shell",
+		"iconPath": "icons/item/weapons/uranium-cannon-shell.png"
+	},
+	{
+		"name": "uranium-rounds-magazine",
+		"category": "weapons",
+		"labelCategory": "item",
+		"labelName": "uranium-rounds-magazine",
+		"iconPath": "icons/item/weapons/uranium-rounds-magazine.png"
+	},
+	{
+		"name": "kovarex-enrichment-process",
+		"category": "nuclear power",
+		"labelCategory": "recipe",
+		"labelName": "kovarex-enrichment-process",
+		"iconPath": "icons/recipe/nuclear power/kovarex-enrichment-process.png"
+	},
+	{
+		"name": "nuclear-fuel-reprocessing",
+		"category": "nuclear power",
+		"labelCategory": "recipe",
+		"labelName": "nuclear-fuel-reprocessing",
+		"iconPath": "icons/recipe/nuclear power/nuclear-fuel-reprocessing.png"
+	},
+	{
+		"name": "uranium-processing",
+		"category": "nuclear power",
+		"labelCategory": "recipe",
+		"labelName": "uranium-processing",
+		"iconPath": "icons/recipe/nuclear power/uranium-processing.png"
+	},
+	{
+		"name": "advanced-oil-processing",
+		"category": "oil processing",
+		"labelCategory": "recipe",
+		"labelName": "advanced-oil-processing",
+		"iconPath": "icons/recipe/oil processing/advanced-oil-processing.png"
+	},
+	{
+		"name": "basic-oil-processing",
+		"category": "oil processing",
+		"labelCategory": "recipe",
+		"labelName": "basic-oil-processing",
+		"iconPath": "icons/recipe/oil processing/basic-oil-processing.png"
+	},
+	{
+		"name": "coal-liquefaction",
+		"category": "oil processing",
+		"labelCategory": "recipe",
+		"labelName": "coal-liquefaction",
+		"iconPath": "icons/recipe/oil processing/coal-liquefaction.png"
+	},
+	{
+		"name": "heavy-oil-cracking",
+		"category": "oil processing",
+		"labelCategory": "recipe",
+		"labelName": "heavy-oil-cracking",
+		"iconPath": "icons/recipe/oil processing/heavy-oil-cracking.png"
+	},
+	{
+		"name": "light-oil-cracking",
+		"category": "oil processing",
+		"labelCategory": "recipe",
+		"labelName": "light-oil-cracking",
+		"iconPath": "icons/recipe/oil processing/light-oil-cracking.png"
+	},
+	{
+		"name": "solid-fuel-from-heavy-oil",
+		"category": "oil processing",
+		"labelCategory": "recipe",
+		"labelName": "solid-fuel-from-heavy-oil",
+		"iconPath": "icons/recipe/oil processing/solid-fuel-from-heavy-oil.png"
+	},
+	{
+		"name": "solid-fuel-from-light-oil",
+		"category": "oil processing",
+		"labelCategory": "recipe",
+		"labelName": "solid-fuel-from-light-oil",
+		"iconPath": "icons/recipe/oil processing/solid-fuel-from-light-oil.png"
+	},
+	{
+		"name": "solid-fuel-from-petroleum-gas",
+		"category": "oil processing",
+		"labelCategory": "recipe",
+		"labelName": "solid-fuel-from-petroleum-gas",
+		"iconPath": "icons/recipe/oil processing/solid-fuel-from-petroleum-gas.png"
+	}
+]
