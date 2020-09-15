@@ -490,6 +490,13 @@
 		"iconPath": "icons/item/items/wood.png"
 	},
 	{
+		"name": "roboport",
+		"category": "logistics",
+		"labelCategory": "item",
+		"labelName": "roboport",
+		"iconPath": "icons/item/logistics/roboport.png"
+	},
+	{
 		"name": "construction-robot",
 		"category": "logistics",
 		"labelCategory": "item",
@@ -621,13 +628,6 @@
 		"labelCategory": "item",
 		"labelName": "repair-pack",
 		"iconPath": "icons/item/misc/repair-pack.png"
-	},
-	{
-		"name": "roboport",
-		"category": "misc",
-		"labelCategory": "item",
-		"labelName": "roboport",
-		"iconPath": "icons/item/misc/roboport.png"
 	},
 	{
 		"name": "rocket-control-unit",
@@ -854,25 +854,11 @@
 		"iconPath": "icons/item/ores/uranium-ore.png"
 	},
 	{
-		"name": "accumulator",
+		"name": "small-electric-pole",
 		"category": "power",
 		"labelCategory": "item",
-		"labelName": "accumulator",
-		"iconPath": "icons/item/power/accumulator.png"
-	},
-	{
-		"name": "big-electric-pole",
-		"category": "power",
-		"labelCategory": "item",
-		"labelName": "big-electric-pole",
-		"iconPath": "icons/item/power/big-electric-pole.png"
-	},
-	{
-		"name": "boiler",
-		"category": "power",
-		"labelCategory": "item",
-		"labelName": "boiler",
-		"iconPath": "icons/item/power/boiler.png"
+		"labelName": "small-electric-pole",
+		"iconPath": "icons/item/power/small-electric-pole.png"
 	},
 	{
 		"name": "medium-electric-pole",
@@ -882,25 +868,25 @@
 		"iconPath": "icons/item/power/medium-electric-pole.png"
 	},
 	{
-		"name": "rocket-fuel",
+		"name": "big-electric-pole",
 		"category": "power",
 		"labelCategory": "item",
-		"labelName": "rocket-fuel",
-		"iconPath": "icons/item/power/rocket-fuel.png"
+		"labelName": "big-electric-pole",
+		"iconPath": "icons/item/power/big-electric-pole.png"
 	},
 	{
-		"name": "small-electric-pole",
+		"name": "substation",
 		"category": "power",
 		"labelCategory": "item",
-		"labelName": "small-electric-pole",
-		"iconPath": "icons/item/power/small-electric-pole.png"
+		"labelName": "substation",
+		"iconPath": "icons/item/power/substation.png"
 	},
 	{
-		"name": "solar-panel",
+		"name": "boiler",
 		"category": "power",
 		"labelCategory": "item",
-		"labelName": "solar-panel",
-		"iconPath": "icons/item/power/solar-panel.png"
+		"labelName": "boiler",
+		"iconPath": "icons/item/power/boiler.png"
 	},
 	{
 		"name": "steam-engine",
@@ -910,11 +896,25 @@
 		"iconPath": "icons/item/power/steam-engine.png"
 	},
 	{
-		"name": "substation",
+		"name": "rocket-fuel",
 		"category": "power",
 		"labelCategory": "item",
-		"labelName": "substation",
-		"iconPath": "icons/item/power/substation.png"
+		"labelName": "rocket-fuel",
+		"iconPath": "icons/item/power/rocket-fuel.png"
+	},
+	{
+		"name": "solar-panel",
+		"category": "power",
+		"labelCategory": "item",
+		"labelName": "solar-panel",
+		"iconPath": "icons/item/power/solar-panel.png"
+	},
+	{
+		"name": "accumulator",
+		"category": "power",
+		"labelCategory": "item",
+		"labelName": "accumulator",
+		"iconPath": "icons/item/power/accumulator.png"
 	},
 	{
 		"name": "assembling-machine-1",
@@ -1015,13 +1015,6 @@
 		"iconPath": "icons/item/science/chemical-science-pack.png"
 	},
 	{
-		"name": "lab",
-		"category": "science",
-		"labelCategory": "item",
-		"labelName": "lab",
-		"iconPath": "icons/item/science/lab.png"
-	},
-	{
 		"name": "logistic-science-pack",
 		"category": "science",
 		"labelCategory": "item",
@@ -1043,13 +1036,6 @@
 		"iconPath": "icons/item/science/production-science-pack.png"
 	},
 	{
-		"name": "space-science-pack",
-		"category": "science",
-		"labelCategory": "item",
-		"labelName": "space-science-pack",
-		"iconPath": "icons/item/science/space-science-pack.png"
-	},
-	{
 		"name": "utility-science-pack",
 		"category": "science",
 		"labelCategory": "item",
@@ -1057,11 +1043,25 @@
 		"iconPath": "icons/item/science/utility-science-pack.png"
 	},
 	{
-		"name": "infinity-chest",
+		"name": "space-science-pack",
+		"category": "science",
+		"labelCategory": "item",
+		"labelName": "space-science-pack",
+		"iconPath": "icons/item/science/space-science-pack.png"
+	},
+	{
+		"name": "lab",
+		"category": "science",
+		"labelCategory": "item",
+		"labelName": "lab",
+		"iconPath": "icons/item/science/lab.png"
+	},
+	{
+		"name": "wooden-chest",
 		"category": "storage",
 		"labelCategory": "item",
-		"labelName": "infinity-chest",
-		"iconPath": "icons/item/storage/infinity-chest.png"
+		"labelName": "wooden-chest",
+		"iconPath": "icons/item/storage/wooden-chest.png"
 	},
 	{
 		"name": "iron-chest",
@@ -1085,53 +1085,32 @@
 		"iconPath": "icons/item/storage/storage-tank.png"
 	},
 	{
-		"name": "wooden-chest",
+		"name": "infinity-chest",
 		"category": "storage",
 		"labelCategory": "item",
-		"labelName": "wooden-chest",
-		"iconPath": "icons/item/storage/wooden-chest.png"
+		"labelName": "infinity-chest",
+		"iconPath": "icons/item/storage/infinity-chest.png"
 	},
 	{
-		"name": "car",
+		"name": "transport-belt",
 		"category": "transport",
 		"labelCategory": "item",
-		"labelName": "car",
-		"iconPath": "icons/item/transport/car.png"
+		"labelName": "transport-belt",
+		"iconPath": "icons/item/transport/transport-belt.png"
 	},
 	{
-		"name": "cargo-wagon",
+		"name": "underground-belt",
 		"category": "transport",
 		"labelCategory": "item",
-		"labelName": "cargo-wagon",
-		"iconPath": "icons/item/transport/cargo-wagon.png"
+		"labelName": "underground-belt",
+		"iconPath": "icons/item/transport/underground-belt.png"
 	},
 	{
-		"name": "express-splitter",
+		"name": "splitter",
 		"category": "transport",
 		"labelCategory": "item",
-		"labelName": "express-splitter",
-		"iconPath": "icons/item/transport/express-splitter.png"
-	},
-	{
-		"name": "express-transport-belt",
-		"category": "transport",
-		"labelCategory": "item",
-		"labelName": "express-transport-belt",
-		"iconPath": "icons/item/transport/express-transport-belt.png"
-	},
-	{
-		"name": "express-underground-belt",
-		"category": "transport",
-		"labelCategory": "item",
-		"labelName": "express-underground-belt",
-		"iconPath": "icons/item/transport/express-underground-belt.png"
-	},
-	{
-		"name": "fast-splitter",
-		"category": "transport",
-		"labelCategory": "item",
-		"labelName": "fast-splitter",
-		"iconPath": "icons/item/transport/fast-splitter.png"
+		"labelName": "splitter",
+		"iconPath": "icons/item/transport/splitter.png"
 	},
 	{
 		"name": "fast-transport-belt",
@@ -1148,18 +1127,39 @@
 		"iconPath": "icons/item/transport/fast-underground-belt.png"
 	},
 	{
-		"name": "fluid-wagon",
+		"name": "fast-splitter",
 		"category": "transport",
 		"labelCategory": "item",
-		"labelName": "fluid-wagon",
-		"iconPath": "icons/item/transport/fluid-wagon.png"
+		"labelName": "fast-splitter",
+		"iconPath": "icons/item/transport/fast-splitter.png"
 	},
 	{
-		"name": "locomotive",
+		"name": "express-transport-belt",
 		"category": "transport",
 		"labelCategory": "item",
-		"labelName": "locomotive",
-		"iconPath": "icons/item/transport/locomotive.png"
+		"labelName": "express-transport-belt",
+		"iconPath": "icons/item/transport/express-transport-belt.png"
+	},
+	{
+		"name": "express-underground-belt",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "express-underground-belt",
+		"iconPath": "icons/item/transport/express-underground-belt.png"
+	},
+	{
+		"name": "express-splitter",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "express-splitter",
+		"iconPath": "icons/item/transport/express-splitter.png"
+	},
+	{
+		"name": "pipe",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "pipe",
+		"iconPath": "icons/item/transport/pipe.png"
 	},
 	{
 		"name": "pipe-to-ground",
@@ -1169,11 +1169,32 @@
 		"iconPath": "icons/item/transport/pipe-to-ground.png"
 	},
 	{
-		"name": "pipe",
+		"name": "train-stop",
 		"category": "transport",
 		"labelCategory": "item",
-		"labelName": "pipe",
-		"iconPath": "icons/item/transport/pipe.png"
+		"labelName": "train-stop",
+		"iconPath": "icons/item/transport/train-stop.png"
+	},
+	{
+		"name": "locomotive",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "locomotive",
+		"iconPath": "icons/item/transport/locomotive.png"
+	},
+	{
+		"name": "cargo-wagon",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "cargo-wagon",
+		"iconPath": "icons/item/transport/cargo-wagon.png"
+	},
+	{
+		"name": "fluid-wagon",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "fluid-wagon",
+		"iconPath": "icons/item/transport/fluid-wagon.png"
 	},
 	{
 		"name": "rail-chain-signal",
@@ -1197,6 +1218,13 @@
 		"iconPath": "icons/item/transport/rail.png"
 	},
 	{
+		"name": "car",
+		"category": "transport",
+		"labelCategory": "item",
+		"labelName": "car",
+		"iconPath": "icons/item/transport/car.png"
+	},
+	{
 		"name": "spidertron-remote",
 		"category": "transport",
 		"labelCategory": "item",
@@ -1211,39 +1239,11 @@
 		"iconPath": "icons/item/transport/spidertron.png"
 	},
 	{
-		"name": "splitter",
-		"category": "transport",
-		"labelCategory": "item",
-		"labelName": "splitter",
-		"iconPath": "icons/item/transport/splitter.png"
-	},
-	{
 		"name": "tank",
 		"category": "transport",
 		"labelCategory": "item",
 		"labelName": "tank",
 		"iconPath": "icons/item/transport/tank.png"
-	},
-	{
-		"name": "train-stop",
-		"category": "transport",
-		"labelCategory": "item",
-		"labelName": "train-stop",
-		"iconPath": "icons/item/transport/train-stop.png"
-	},
-	{
-		"name": "transport-belt",
-		"category": "transport",
-		"labelCategory": "item",
-		"labelName": "transport-belt",
-		"iconPath": "icons/item/transport/transport-belt.png"
-	},
-	{
-		"name": "underground-belt",
-		"category": "transport",
-		"labelCategory": "item",
-		"labelName": "underground-belt",
-		"iconPath": "icons/item/transport/underground-belt.png"
 	},
 	{
 		"name": "artillery-shell",
