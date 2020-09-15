@@ -1,25 +1,23 @@
 <template>
   <div class="background">
-    <div class="category"  v-for="(category, categoryIndex) of itemMetaData" :key="categoryIndex">
-      <div class="categoryTitleContainer">
-        <span class="categoryTitle">{{category.title}}</span>
-      </div>
-      <div class="categoryItems">
-        <div class="item" v-for="(item, itemIndex) of category.items" :key="itemIndex"
-             v-clipboard="getLabel(item)">
-          <img :src="item.iconPath" :alt="item.Name" width="64" height="64">
-        </div>
-      </div>
-    </div>
+    <NavBar class="scroll-top"/>
+    <About/>
+    <IconList :item-meta-data="itemMetaData"/>
+    <Footer :link-function="scrollToElement"/>
   </div>
 </template>
 
 <script>
 import itemMetaDataJson from "./assets/itemMetadata.json"
 import {sortStringsAlphabetically} from "@/utils/utils";
+import IconList from "@/components/IconList";
+import NavBar from "@/components/NavBar";
+import About from "@/components/About";
+import Footer from "@/components/Footer";
 
 export default {
   name: 'App',
+  components: {Footer, NavBar, About, IconList},
   data() {
     return {
       itemMetaData: []
@@ -45,8 +43,11 @@ export default {
 
   },
   methods: {
-    getLabel(item) {
-      return `[${item.labelCategory}=${item.labelName}]`
+    scrollToElement(elementName) {
+      const el = this.$el.getElementsByClassName(elementName)[0]
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" })
+      }
     }
   }
 }
@@ -55,6 +56,12 @@ export default {
 <style>
 
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+/** {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}*/
 
 * {
   font-family: "Titillium Web", Avenir, Helvetica, Arial, sans-serif;
@@ -65,55 +72,5 @@ export default {
 
 .background {
   background: #242324;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.category {
-  width: 100%;
-  margin: 3rem 1rem 0 1rem;
-}
-
-.categoryTitleContainer {
-  background: #414040;
-  padding: 0.5rem 1rem;
-}
-
-
-.categoryTitle {
-  font-weight: 900;
-  font-size: 1.25rem;
-  color: #ffe6c0;
-  text-transform: capitalize;
-}
-
-.categoryItems {
-  background: #414040;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: auto;
-}
-
-.item {
-  border-style: solid;
-  border-color: transparent;
-  border-width: 0.2rem;
-  padding: 0.5rem;
-  margin: 0.75rem;
-  display: flex;
-  align-content: center;
-}
-
-.item:hover {
-  border-color: #E39827;
-}
-
-.item:active,
-.item:focus {
-  background: #E39827;
 }
 </style>
