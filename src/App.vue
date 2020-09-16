@@ -2,7 +2,7 @@
   <div class="background">
     <NavBar class="scroll-top"/>
     <About/>
-    <IconList :item-meta-data="itemMetaData"/>
+    <IconList :item-meta-data="itemMetaData" :icon-config="iconConfig"/>
     <Footer :link-function="scrollToElement"/>
   </div>
 </template>
@@ -20,7 +20,10 @@ export default {
   components: {Footer, NavBar, About, IconList},
   data() {
     return {
-      itemMetaData: []
+      itemMetaData: [],
+      iconConfig: {
+        sizeMultiplier: 1
+      }
     }
   },
   created() {
